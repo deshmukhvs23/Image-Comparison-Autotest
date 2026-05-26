@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+venv/
+.venv/
+env/
+
+# Output folders — generated at runtime, not committed
+stl_views/*.png
+tdp_views/*.png
+diff_views/*.png
+diff_views/report.html
+
+# Large binary files — excluded globally
+*.pdf
+*.stl
+
+# Exception: sample_data files ARE committed for demo purposes
+!sample_data/*.stl
+!sample_data/*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
